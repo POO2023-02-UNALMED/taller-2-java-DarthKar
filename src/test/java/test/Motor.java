@@ -10,7 +10,7 @@ public class Motor {
 		
 		this.registro = registro; 			
 	}
-	void cambiartTipo(String tipo) {
+	void cambiarTipo(String tipo) {
 		if (tipo=="electrico" || tipo=="gasolina") {
 			this.tipo = tipo;
 		}
